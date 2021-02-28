@@ -8,7 +8,7 @@ Now it will take line(the command we gave ) using shell_read_line function and s
 Now after whole command is run and executed, then he free function will remove all the line and args data to free up space  .
 
 how to use - 
-Open terminal in "______" folder and compile all the files using the following command -
+Open terminal in folder and compile all the files using the following command -
 gcc acmsh.c linkedlist.c linkedlist.h utilities.h utilities.c ./a.out
 
 Now your shell is ready to go
