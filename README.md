@@ -9,7 +9,7 @@ Now after whole command is run and executed, then he free function will remove a
 
 how to use - 
 Open terminal in folder and compile all the files using the following command -
-gcc acmsh.c linkedlist.c linkedlist.h utilities.h utilities.c ./a.out
+gcc acmsh.c linkedlist.c linkedlist.h utilities.h utilities.c history.c history.h./a.out
 
 Now your shell is ready to go
 
