@@ -1,9 +1,9 @@
 #include "utilities.h"
 
-typedef struct process // 
+typedef struct process  
 {
-	int pid;
 	char* path;
+	int pid;
 	struct process* next;
 } process;
 
