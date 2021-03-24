@@ -10,7 +10,7 @@ struct commandNode *insertCommand(char *command, int status)
 	strcpy(newNode->command, command);
 	newNode->next = NULL;
 
-	if (commandIndex == 10)
+	if (commandIndex == 10)   // means memory alloted for thid is full, remove last to add new
 	{
 		struct commandNode *p = commandList;
 		for (int i = 0; i < 9; i++)
