@@ -37,7 +37,7 @@ int shell_bg(char **args)
         {
             if (execvp(firstCmd,args)<0)
             {
-                perror("Error on execvp\n");
+                perror(" Error on execvp\n");
                 exit(0);
             }
 
