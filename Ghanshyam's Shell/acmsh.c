@@ -28,7 +28,7 @@ int shell_bg(char **args)
 {
 //args -- bg echo "hello"
     ++args;
-//args -- echo "hello"
+//args -- echo  "hello"
     char *firstCmd= args[0];//echo
     int childpid=fork();
     if (childpid>=0)
