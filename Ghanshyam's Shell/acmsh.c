@@ -47,7 +47,7 @@ int shell_bg(char **args)
                  else  add_to_list(childpid,firstCmd,true);
         }
     }
-    else perror("fork() error");
+    else perror(" fork() error");
     return 1;
 }
 int shell_bglist(char **args)
